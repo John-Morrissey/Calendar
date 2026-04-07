@@ -190,7 +190,7 @@ function hasEvents(html){
 function load(){
   var x=new XMLHttpRequest();
   // F7W calendar — cid can be the calendar slug
-  var u="https://ul-ctl.libcal.com/api_events.php?m=upc&cid=CTL&audience=&c=&d=&tags=&l=5&tar=0&bs=0&simple=agenda&_="+Date.now();
+  var u="https://ul-ctl.libcal.com/api_events.php?m=upc&cid=9328&audience=&c=&d=&tags=&l=5&tar=0&bs=1&simple=agenda&_="+Date.now();
   x.open("GET",u,true);
   x.onreadystatechange=function(){
     if(x.readyState===4){
